@@ -1,0 +1,29 @@
+// ========== AGREGAR IMÁGENES DINÁMICAS ==========
+
+document.getElementById("btnAgregarImagen").addEventListener("click", function () {
+
+  const url = document.getElementById("inputImagen").value.trim();
+  const contenedor = document.getElementById("galeria");
+
+  if (url === "") {
+    alert("Por favor ingresa una URL válida.");
+    return;
+  }
+
+  // Crear columna Bootstrap
+  const col = document.createElement("div");
+  col.classList.add("col-md-4");
+
+  // Crear tarjeta con imagen
+  col.innerHTML = `
+    <div class="card shadow-sm">
+      <img src="${url}" class="card-img-top" alt="Imagen agregada dinámicamente" style="height:220px; object-fit:cover;">
+    </div>
+  `;
+
+  // Agregar a la galería
+  contenedor.appendChild(col);
+
+  // Limpiar input
+  document.getElementById("inputImagen").value = "";
+});

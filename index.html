@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora Fashion Studio</title>
+
+  <meta name="description" content="Velora Fashion Studio: moda elegante y accesorios premium. Piezas diseñadas con intención para mujeres que buscan identidad y presencia.">
+  <meta name="keywords" content="moda, ropa elegante, accesorios, Velora, estilo, tendencias, diseño">
+  <meta name="author" content="Ahilyn · Velora Fashion Studio">
+  <meta name="copyright" content="Velora Fashion Studio 2025">
+  <meta name="application-name" content="VELORA">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tu CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Banner -->
+<div id="banner" class="p-3 text-white text-center bg-primary">
+  Promoción exclusiva: 20% de descuento en nuestra colección de lanzamiento. Elegancia y calidad en cada pieza.
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="IMG/Logo.png" height="50" class="me-2" alt="Logo Velora">
+      <span class="fw-semibold">Velora Fashion Studio</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+      aria-label="Alternar navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Paises">Colecciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Ubicacion">Showroom</a></li>
+        <li class="nav-item"><a class="nav-link" href="#agregar-imagen">Agregar imagen</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CARRUSEL -->
+<div id="mainCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner rounded-3 shadow-sm">
+
+    <div class="carousel-item active">
+      <img src="IMG/Velora1.png" class="d-block w-100" alt="Colección Velora" style="height: 380px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block text-start">
+        <h5>Elegancia contemporánea</h5>
+        <p>Prendas pensadas para destacar tu presencia: cortes precisos, materiales seleccionados y una estética atemporal.</p>
+        <a href="#" class="btn btn-primary">Ver catálogo</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="IMG/Velora2.png" class="d-block w-100" alt="Accesorios Velora" style="height: 380px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Detalles que hablan</h5>
+        <p>Accesorios diseñados para complementar tu historia: piezas con carácter, acabados refinados y presencia duradera.</p>
+        <a href="#" class="btn btn-light btn-sm">Explorar</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="IMG/Velora3.png" class="d-block w-100" alt="Velora" style="height: 380px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block text-end">
+        <h5>Moda con intención</h5>
+        <p>Vestir Velora es elegir una narrativa de confianza: diseño, propósito y cuidado en cada puntada.</p>
+        <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modalIA">Más información</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- SECCIÓN PRINCIPAL -->
+<section class="container my-5">
+  <h1 class="text-center mb-4">Bienvenidos a Velora Fashion Studio</h1>
+  <p class="text-center lead">Moda elegante y accesorios premium diseñados para mujeres que desean expresar personalidad y presencia con cada prenda.</p>
+</section>
+
+<!-- ALERTAS -->
+<section class="container my-5">
+  <h2>Alertas</h2>
+  <div class="alert alert-info">Lanzamiento de temporada: piezas limitadas disponibles en preventa. Reserva tu talla y recibe una consultoría de estilo personalizada.</div>
+</section>
+
+<!-- TARJETAS -->
+<section class="container my-5" id="Paises">
+  <h2 class="mb-4">Colecciones destacadas</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Colección Signature</h5>
+          <p class="card-text">La línea principal de Velora: siluetas limpias, tejidos nobles y una paleta pensada para exaltar la sofisticación cotidiana.</p>
+          <a href="#" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="IMG/Fashion.jpeg" class="card-img-top" alt="Accesorios Velora">
+        <div class="card-body">
+          <h5 class="card-title">Accesorios de Autor</h5>
+          <p class="card-text">Piezas únicas y atemporales que completan el look: desde broches hasta complementos de edición limitada.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-header">Edición Limitada</div>
+        <div class="card-body">
+          <h5 class="card-title">Colección “Esencial”</h5>
+          <p class="card-text">Diseños con intención: cortes que favorecen, texturas cuidadas y una narrativa que celebra la feminidad contemporánea.</p>
+          <a href="#" class="btn btn-success">Quiero ver</a>
+        </div>
+        <div class="card-footer">Disponible por tiempo limitado</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="container my-5">
+  <h2>Testimonios de nuestras clientas</h2>
+
+  <!-- TESTIMONIO VIP -->
+  <div class="testimonio-vip d-flex align-items-start mb-4 p-4 border rounded shadow-sm">
+    <img src="IMG/Testimonio1.png" alt="Clienta VIP" class="rounded-circle me-3" width="80" height="80">
+    <div>
+      <h5 class="fw-bold">Clienta VIP</h5>
+      <p>"Velora transformó mi guardarropa. Cada prenda tiene una intención clara: realzar lo mejor de mí sin esfuerzo. La experiencia de compra fue impecable y la calidad, excepcional."</p>
+    </div>
+  </div>
+
+  <!-- TESTIMONIO NORMAL -->
+  <div class="d-flex align-items-start mb-4 p-3 border rounded">
+    <img src="IMG/Testimonio2.png" alt="Clienta regular" class="rounded-circle me-3" width="80" height="80">
+    <div>
+      <strong>Clienta Regular</strong>
+      <p class="mb-0">"Los accesorios son de una delicadeza sorprendente; complementan mis looks y me permiten expresar una versión más segura de mí misma."</p>
+    </div>
+  </div>
+
+  <!-- TESTIMONIO VIP -->
+  <div class="testimonio-vip d-flex align-items-start mb-4 p-4 border rounded shadow-sm">
+    <img src="IMG/Testimonio3.png" alt="Clienta VIP" class="rounded-circle me-3" width="80" height="80">
+    <div>
+      <h5 class="fw-bold">Clienta VIP</h5>
+      <p>"La confección y el detalle hacen la diferencia. Velora entrega belleza duradera: me siento cómoda, elegante y lista para cualquier ocasión."</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- TABS -->
+<section class="container my-5">
+  <h2>Pestañas (Tabs)</h2>
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#homeTab">Home</button></li>
+    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#profileTab">Colecciones</button></li>
+  </ul>
+
+  <div class="tab-content mt-3">
+    <div id="homeTab" class="tab-pane fade show active">
+      <p>Bienvenida al universo Velora: diseño pensado, confección cuidadosa y un compromiso con la elegancia consciente.</p>
+    </div>
+    <div id="profileTab" class="tab-pane fade">
+      <p>Aquí encontrarás nuestras colecciones, piezas favoritas y recomendaciones de estilo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FORMULARIO -->
+<section class="container my-5" id="Contacto">
+  <h2>Formulario de inscripción</h2>
+
+  <form class="p-4 border rounded bg-light shadow-sm">
+
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo">
+    </div>
+
+    <div class="mb-3">
+      <label for="Pais-select" class="form-label">Selecciona la colección</label>
+      <select class="form-select" id="Pais-select">
+        <option selected>Elige una colección</option>
+        <option value="Signature">Signature</option>
+        <option value="Accesorios">Accesorios</option>
+        <option value="Esencial">Edición limitada</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Modalidad</label><br>
+
+      <input class="form-check-input" type="radio" name="modalidad" id="modalidadPresencial">
+      <label for="modalidadPresencial">Showroom</label><br>
+
+      <input class="form-check-input" type="radio" name="modalidad" id="modalidadOnline" checked>
+      <label for="modalidadOnline">Compra online</label>
+    </div>
+
+    <div class="mb-3">
+      <label for="Mensaje" class="form-label">Comentarios adicionales</label>
+      <textarea class="form-control" id="Mensaje" rows="3" placeholder="Cuéntanos qué buscas..."></textarea>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-success">Enviar inscripción</button>
+    </div>
+
+  </form>
+</section>
+
+<!-- MODAL -->
+<div class="modal fade" id="modalIA" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Detalles de Velora Fashion Studio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        Velora ofrece colecciones pensadas con criterio: diseño, calidad y una experiencia de compra que acompaña tu transformación personal.
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button class="btn btn-primary">Ver Colecciones</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- OFFCANVAS -->
+<div class="container text-center my-5">
+  <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasInfo">
+    Abrir información lateral
+  </button>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasInfo">
+  <div class="offcanvas-header">
+    <h5>Más sobre Velora</h5>
+    <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Conoce nuestras colecciones, materiales y procesos de diseño. Velora nace del compromiso por ofrecer moda con integridad y estilo.</p>
+    <p>Síguenos en redes para acceso anticipado a lanzamientos exclusivos.</p>
+  </div>
+</div>
+
+<!-- EVENTO ONCLICK -->
+<section class="container my-5">
+  <h3>Evento onclick</h3>
+  <button class="btn btn-warning" onclick="saludar()">Haz clic para saludar</button>
+  <p id="mensajeOnclick" class="mt-3 fw-bold"></p>
+</section>
+
+<!-- ONMOUSEOVER -->
+<section class="container my-5">
+  <h3>Evento onmouseover</h3>
+  <div id="cuadroColor"
+       onmouseover="CambiaColor()"
+       onmouseout="RestablecerColor()"
+       class="p-5 text-center border rounded"
+       style="background:#eee;">
+    Pasa el cursor por aquí
+  </div>
+</section>
+
+<!-- ONCHANGE -->
+<section class="container my-5">
+  <h3>Evento onchange</h3>
+  <select id="seleccionPais" class="form-select" onchange="mostrarSeleccion()">
+    <option value="">Selecciona una categoría</option>
+    <option value="Ropa elegante">Ropa elegante</option>
+    <option value="Accesorios">Accesorios</option>
+    <option value="Ediciones Exclusivas">Ediciones Exclusivas</option>
+    <option value="Próximos lanzamientos">Próximos lanzamientos</option>
+  </select>
+  <p id="textoOnchange" class="mt-3 fw-bold"></p>
+</section>
+
+<!-- ADD EVENT LISTENER -->
+<section class="container my-5">
+  <h3>Evento addEventListener</h3>
+  <div class="card shadow-sm" style="width: 28rem">
+    <img id="cardImagen" class="card-img-top"
+         src="IMG/Estilo.png" alt="Colección Velora">
+    <div class="card-body">
+      <h5 class="card-title">Edición Especial</h5>
+      <p class="card-text">Accesorios y prendas que capturan la esencia de la temporada.</p>
+      <button id="btnCambiarcard" class="btn btn-success">Actualizar información</button>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS IA -->
+<section id="Word" class="container my-5">
+  <h2 class="mb-4">Servicios personalizados</h2>
+  <p class="text-center">Asesorías y herramientas para crear looks coherentes con tu identidad y propósito.</p>
+
+  <div class="row g-4">
+
+    <!-- Servicio 1 -->
+    <div class="col-md-4">
+      <div class="card-2" id="card1">
+        <img src="IMG/Moda.png" class="card-img-top" alt="Asesoría de estilo">
+        <div class="card-body">
+          <h5 class="card-title">Asesor de Estilo</h5>
+          <p class="card-text">Recomendaciones personalizadas para que cada prenda se convierta en una extensión de tu voz estética. Precio: 100.</p>
+          <p class="detalle" id="detalle1">
+            Nuestro servicio combina análisis de color, proporciones y contexto para armar looks que conecten con tu día a día y tus eventos más importantes.
+          </p>
+          <button class="btn btn-success mb-2 btnSelect1">Seleccionar servicio</button>
+          <button class="btn btn-danger btnRemove1">Eliminar servicio</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/527221234567"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Chatea por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- AGREGAR IMAGEN -->
+<section id="agregar-imagen" class="container my-5">
+  <h2 class="mb-4">Agregar Imágenes dinámicamente</h2>
+  <div class="input-group mb-3">
+    <input 
+    type="text" 
+    id="InputImagen" 
+    class="form-control" 
+    placeholder="Ingresa la URL de la imagen">
+    <button id="btnAgregarImagen" class="btn btn-primary">Agregar Imagen</button>
+  </div>
+
+  <!--Contenedor para las imágenes agregadas (corregido ID duplicado) -->
+  <div id="galeria" class="row g-3"></div>
+</section>
+<!--==============================================================================
+ACTIVIDAD: LISTA DE TAREAS PARA MERKA WARRIOR
+==================================================================================-->
+<section id="lista-warrior" class="container my-5">
+  <h2 class="mb-4"> Lista de ropa</h2>
+<!--Boton para eliminar primer elemento-->
+<button id="btnEliminarPrimero" class="btn btn-danger mb-3">
+  Eliminar Primera Tarea</button>
+  <!--Lista original-->
+  <ul id="listaTareas" class="list-group mb-3">
+  <li class="tarea 1" class="list-group-item">Crear contenido social</li>
+  <li class="tarea 2" class="list-group-item">Diseñar campañas de marketing 
+    digital para Velora Fashion Studio </li>
+  <li class="tarea 3" class="list-group-item">Analizar métricas de desempeño
+     de Velora Fashion Studio</li>
+</ul>
+  <!--Agregar nueva tarea-->
+  <div class="input-group mt-3">
+  <input id="inputNuevaTarea" type="text" class="forma-control"
+  placeholder="Escribe una nueva tarea">
+  <button id="btnAgregarTarea" class="btn btn-success">
+    Agregar Tarea</button>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-center text-white py-3 mt-5">
+  ©️ 2025 Velora Fashion Studio · Fundado por Ahilyn
+  <div class="mt-2">
+    <a href="https://www.facebook.com/alejandro" target="_blank" rel="noopener" class="text-white me-3">
+      <i class="fab fa-facebook fa-lg"></i>
+    </a>
+    <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener" class="text-white me-3">
+      <i class="fab fa-instagram fa-lg"></i>
+    </a>
+    <a href="https://www.tiktok.com/@tuusuario" target="_blank" rel="noopener" class="text-white me-3">
+      <i class="fab fa-tiktok fa-lg"></i>
+    </a>
+    <a href="https://www.youtube.com/c/tuusuario" target="_blank" rel="noopener" class="text-white me-3">
+      <i class="fab fa-youtube fa-lg"></i>
+    </a>
+    <a href="https://x.com/tuusuario" target="_blank" rel="noopener" class="text-white">
+      <i class="fab fa-x-twitter fa-lg"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito Productos</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Indicadores visuales */
+    #estadoAccion {
+      font-weight: bold;
+      margin-top: 15px;
+      display: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body class="p-4">
+
+  <h2 class="mb-4">Productos</h2>
+
+  <!-- GRID DE PRODUCTOS -->
+  <div class="row g-4">
+
+    <!-- CARD 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Producto 1</h5>
+          <button class="btn btn-primary" onclick="agregarProducto('Producto 1')">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 2">
+        <div class="card-body text-center">
+          <h5 class="card-title">Producto 2</h5>
+          <button class="btn btn-primary" onclick="agregarProducto('Producto 2')">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 3">
+        <div class="card-body text-center">
+          <h5 class="card-title">Producto 3</h5>
+          <button class="btn btn-primary" onclick="agregarProducto('Producto 3')">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 4">
+        <div class="card-body text-center">
+          <h5 class="card-title">Producto 4</h5>
+          <button class="btn btn-primary" onclick="agregarProducto('Producto 4')">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 5">
+        <div class="card-body text-center">
+          <h5 class="card-title">Producto 5</h5>
+          <button class="btn btn-primary" onclick="agregarProducto('Producto 5')">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
